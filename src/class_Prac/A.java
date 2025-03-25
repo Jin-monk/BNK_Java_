@@ -1,7 +1,7 @@
 package class_Prac;
 
 public class A {
-	int n ;
+	public int n ; // 접근 제한자 
 	String s;
 	
 	void f() {
