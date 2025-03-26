@@ -4,9 +4,9 @@ public class PersonTest {
 
 	public static void main(String[] args) {
 
-		Person s1 = new Person(1);
+		Person s1 = new Person();
 		
-		new Person("Ann");
+		new Person(1);
 		
 		
 		
