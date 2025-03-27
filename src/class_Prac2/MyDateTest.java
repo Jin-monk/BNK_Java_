@@ -6,9 +6,12 @@ public class MyDateTest {
 
 	public static void main(String[] args) {
 		
-		MyDate s1 = new MyDate(2025,30,26);
+		MyDate s1 = new MyDate();
+		MyDate s2 = new MyDate();
 		
 		//s1.setMonth(30);
+		
+		s2.setYear(2025);
 		
 		
 	}

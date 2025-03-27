@@ -13,16 +13,16 @@ public class MyDate {
 	}
 
 	public void setYear(int year) {
-		checkYear(year);
-		this.year = year;
+		int result = checkYear(year);
+		this.year = result;
 	}
-	public void checkYear(int year ) {
+	public int checkYear(int year ) {
 		if (0 <= year && year <= 9999) {
-			this.year = year ;
+			return year ;
 			
 		}else {
-			this.year = 0 ;
 			System.out.println("값이 잘못 입력되었습니다.");
+			return 0 ; 
 		}
 	}
 	public int getYear() {

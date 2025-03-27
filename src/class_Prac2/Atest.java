@@ -1,5 +1,7 @@
 package class_Prac2;
 
+import vo.A;
+
 public class Atest {
 
 	public static void main(String[] args) {
