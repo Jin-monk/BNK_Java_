@@ -33,8 +33,8 @@ public class HumanTest2 {
 		/*
 		 * int maleCnt = 0; int femaleCnt = 0;
 		 */
-		getHuman sc = new getHuman();
-		sc.getHuman(humans);
+		//getHuman sc = new getHuman();
+		//sc.getHuman(humans);
 
 		for (int i = 0; i < humans.length; i++) {
 			if (humans[i].cnt == 4) {
