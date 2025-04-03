@@ -1,14 +1,17 @@
 package vo;
-
+//Person, Tteokguk, TteokgukTest
 public class Tteokguk {
 	
 	private int kcal ; 
 	
-	public void eatTteokguk(PersonAge i) {
+	public void eatTteokguk(Person person) {
 		
-		i.eat();
+		person.eat();
 		
 	}
 	
-	
+	public void eatRamen(Person person) {
+
+		
+	}
 }
