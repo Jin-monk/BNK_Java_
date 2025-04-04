@@ -1,7 +1,6 @@
 package interface_Prac;
 
 public class BeanFactory {
-
 	TV result ; 
 	
 	/*
@@ -11,11 +10,11 @@ public class BeanFactory {
 	 * result = new LgTV(); } return result; }
 	 */
 	
-	public TV getBean(int num) {
+	public TV getBean(String tv) {
 		
-		if (num == 1) {// 삼성
+		if (tv.equals("samsung")) {// 삼성
 			return new SamsungTV();
-		} else if (num == 2) {// LG
+		} else if (tv.equals("lg")) {// LG
 			return new LgTV();
 		}
 		return null;

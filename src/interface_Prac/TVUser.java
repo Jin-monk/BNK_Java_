@@ -1,5 +1,7 @@
 package interface_Prac;
 
+import java.util.Scanner;
+
 public class TVUser {
 
 	public static void main(String[] args) {
@@ -25,15 +27,24 @@ public class TVUser {
 		tvs[0] = tv1;
 		tvs[1] = tv2;
 
-		/*
-		 * for (int i = 0 ; i < tvs.length ; i ++) { tvs[i].powerOn();
-		 * tvs[i].volumeUp(); tvs[i].volumeDown(); tvs[i].powerOff();
-		 * 
-		 * }
-		 */
+		
+//		for (int i = 0; i < tvs.length; i++) {
+//			tvs[i].powerOn();
+//			tvs[i].volumeUp();
+//			tvs[i].volumeDown();
+//			tvs[i].powerOff();
+//
+//		}
 
+		Scanner sc = new Scanner(System.in);
 		BeanFactory factory = new BeanFactory();
-		TV tv3 = factory.getBean(3); // 1이면 삼성, 2면 LG
+
+		System.out.println("어떤 브랜드의 TV를 원하십니까? ");
+		System.out.println("saumsung과 lg가 있습니다. 입력하세요: ");
+
+		String brand = sc.nextLine();
+		TV tv3 = factory.getBean(brand); // 매개변수 samsung 이면 삼성TV, 매개변수 lg 이면 LGTV
+
 		if (tv3 == null) {
 			System.out.println("해당 TV가 없습니다.");
 		} else {
