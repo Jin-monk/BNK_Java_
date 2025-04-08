@@ -25,12 +25,12 @@ public class XYTest {
 	System.out.println(b1.y);
 	
 	//상속관계 제거 
-	Object a1  = new Y () ;
-	
-	Y b1 = (Y)a1 ; 
-	b1.y = "bye";
-	System.out.println(b1.y);
-	
+//	Object a1  = new Y () ;
+//	
+//	Y b1 = (Y)a1 ; 
+//	b1.y = "bye";
+//	System.out.println(b1.y);
+//	
 	
 	
 	
