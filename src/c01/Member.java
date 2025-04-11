@@ -6,7 +6,8 @@ public class Member {
 	private String pw;
 	private String name;
 	private String phone;
-	private char grade;
+	private String grade;
+	
 	
 	public String getId() {
 		return id;
@@ -32,11 +33,11 @@ public class Member {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
-	public char getGrade() {
+	public String getGrade() {
 		return grade;
 	}
-	public void setGrade(char grade) {
-		this.grade = grade;
+	public void setGrade(String grade2) {
+		this.grade = grade2;
 	}
 	@Override
 	public String toString() {

@@ -9,6 +9,7 @@ public class Board {
 	private String regdate;
 	
 	
+	
 	public int getBno() {
 		return bno;
 	}
