@@ -18,7 +18,7 @@ public class StreamSortedTest {
 		
 		list.stream()
 			.sorted((s1,s2) -> s1.length() - s2.length()) // 문자열의 길이로 비교한것.
-			.forEach(n -> System.out.print(n + "\t"));
+			.forEach(n -> System.out.print(n + "\t")); 
 		
 	}
 
